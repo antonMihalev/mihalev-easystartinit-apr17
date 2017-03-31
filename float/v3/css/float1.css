@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.row:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both; }
+
+.wrapper {
+  width: 960px;
+  margin: 10px auto; }
+
+.header {
+  min-height: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 5px 0; }
+
+.h-logo {
+  float: left;
+  width: 100px;
+  min-height: 80px;
+  border: 1px solid black;
+  border-radius: 5px; }
+
+.h-nav {
+  float: right;
+  width: 550px;
+  min-height: 70px;
+  border: 1px solid black;
+  border-radius: 5px; }
+
+.content {
+  border-radius: 5px;
+  margin: 5px 0; }
+
+.c--left-bar {
+  width: 25%;
+  float: left; }
+
+.inner-left-bar {
+  border: 1px solid black;
+  min-height: 500px;
+  border-radius: 5px; }
+
+.c--middle-content {
+  width: 75%;
+  float: left;
+  padding-left: 5px; }
+
+.inner-middle-content {
+  border: 1px solid black;
+  min-height: 500px;
+  border-radius: 5px; }
+
+.box {
+  float: left;
+  padding: 10px 5px 5px; }
+
+.box + .box {
+  padding-left: 20px; }
+
+.b-inner {
+  width: 150px;
+  min-height: 150px;
+  border: 1px solid black;
+  border-radius: 5px; }
+
+.footer {
+  min-height: 100px;
+  border: 1px solid black;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=float1.css.map */

@@ -1,0 +1,31 @@
+.wrapper .greenbox {
+  margin: 100px auto;
+  width: 200px;
+  height: 300px;
+  background-color: lightgreen;
+  position: relative;
+}
+.wrapper .greenbox .yellowbox {
+  position: absolute;
+  background-color: gold;
+  width: 100px;
+  height: 100px;
+}
+.wrapper .greenbox .box1 {
+  top: 0px;
+  left: -150px;
+}
+.wrapper .greenbox .box2 {
+  top: 0px;
+  right: -150px;
+}
+.wrapper .greenbox .box3 {
+  bottom: 0px;
+  left: -150px;
+}
+.wrapper .greenbox .box4 {
+  bottom: 0px;
+  right: -150px;
+}
+
+/*# sourceMappingURL=pos1.css.map */
